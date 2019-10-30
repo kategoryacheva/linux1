@@ -3,6 +3,9 @@ home_dir=$HOME
 regex="("
 pipe="|"
 archive_name="$2"
+
+mkdir $1 2>/dev/null
+
 if [ "$#" -ge 3 ]
 then
 	regex="$regex$3"
