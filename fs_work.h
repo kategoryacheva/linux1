@@ -10,7 +10,6 @@
 #define FIL '-'
 #define RECURSIVE 1
 #define SIMPLE 2
-#define FILE_LENGTH 100
 
 const char MYFS_FILENAME[10] = "myFS";
 const u32 MYFS_RECS_PER_BLOCK = MYFS_BLOCK_SIZE / sizeof(struct myFs_dir_file_rec);
